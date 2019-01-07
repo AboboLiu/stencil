@@ -1,0 +1,40 @@
+.el-container {
+  background-color: #ececec;
+  padding: 10px;
+
+  .el-header {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .el-main {
+    padding: 0 10px;
+    background-color: #fff;
+
+    .btns {
+      text-align: left;
+      padding: 10px 0;
+    }
+
+    .el-table {
+      font-size: 12px;
+      color: #333;
+
+      .el-table__header-wrapper {
+        border: 1px solid #eee;
+        border-bottom: none;
+        box-sizing: border-box;
+
+        th {
+          background-color: #f8f8f8;
+          color: #000;
+        }
+      }
+    }
+
+    .el-pagination {
+      padding: 10px;
+    }
+  }
+}

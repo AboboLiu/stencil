@@ -1,0 +1,21 @@
+.el-form {
+  text-align: left;
+
+  .tag {
+    background-color: #efefef;
+    width: 180%;
+    margin-left: -40%;
+    font-weight: 400;
+    padding: 10px 0 10px 30px;
+  }
+
+  .el-form-item__label {
+    font-size: 12px;
+  }
+
+  .el-input {
+    .el-input__inner {
+      border-radius: 0;
+    }
+  }
+}
